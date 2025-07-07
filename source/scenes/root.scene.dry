@@ -225,8 +225,8 @@ Q.unemployed_qol = 100;
 Q.old_middle_qol = 100;
 Q.new_middle_qol = 100;
 
-Q.classes = ['workers', 'old_middle', 'new_middle', 'rural', 'unemployed', 'catholics'];
-Q.parties = ['spd', 'kpd', 'z', 'usp', 'dvp', 'dnvp', 'nsdap', 'other'];
+Q.classes = ['workers', 'old_middle', 'new_middle', 'rural', 'unemployed', 'bluds'];
+Q.parties = ['pfjp', 'wpb', 'cps', 'usp', 'dvp', 'nfp', 'nsdap', 'other'];
 
 // TODO: add 'sapd' later on
 Q.sapd_formed = 0;
@@ -357,7 +357,7 @@ Q.in_spd_majority = 0;
 Q.grand_coalition_failed = 0;
 // if the SPD is ruling as part of a minority government
 Q.in_minority_government = 0;
-// national unity governmet
+// national unity government
 
 // if you're in a coalition, this is an incremental counter for how many times dissent has happened from the right.
 Q.coalition_dissent = 0;
